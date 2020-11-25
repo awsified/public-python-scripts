@@ -20,4 +20,5 @@ driver.find_element_by_id("ccPassword").send_keys(pwstore)
 driver.find_element_by_id('ccRePassword').send_keys(pwstore)
 driver.find_element_by_id('ccUserName').send_keys('aws_account_name')
 driver.find_element_by_name('submit').click() # Clicks submit
+time.sleep(5)
 driver.find_element_by_id('guess').send_keys('I AM NOT A ROBOT')
