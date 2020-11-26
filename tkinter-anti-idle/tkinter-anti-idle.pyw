@@ -3,7 +3,7 @@ import pyautogui # This allows mouse stuff
 import time # This allows sleep commands
 
 my_ui_window = tk.Tk() # make tk.Tk() into just a single object.
-my_ui_window.title('Radio Button Example')
+my_ui_window.title('Anti-Idle 1.0')
 v = tk.IntVar() # This becomes the index of sorts for our radio elements.
 v.set(1)  # initializing radio button to off
 
