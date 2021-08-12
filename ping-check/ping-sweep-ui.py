@@ -1,3 +1,6 @@
+## This script is designed for Windows only
+
+
 import tkinter
 from tkinter import ttk
 import subprocess
